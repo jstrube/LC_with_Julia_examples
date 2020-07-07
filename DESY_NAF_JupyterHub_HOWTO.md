@@ -10,7 +10,7 @@ We will first install a jupyter kernel for Julia.
 1. Start the terminal (Under "Other")
 1. Downlowd the latest stable Julia binary for x84_64 Linux (at the time of this writing v1.4.2) 
     ```
-    https://julialang-s3.julialang.org/bin/linux/x64/1.4/julia-1.4.2-linux-x86_64.tar.gz
+    wget https://julialang-s3.julialang.org/bin/linux/x64/1.4/julia-1.4.2-linux-x86_64.tar.gz
     tar xzf julia-1.4.2-linux-x86_64.tar.gz
     ```
 1. Open the julia binary and install the IJulia package
