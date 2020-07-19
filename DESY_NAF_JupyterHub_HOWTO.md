@@ -6,7 +6,7 @@ This assumes you have already an account.
 The instructions should be directly applicable to your home institution's JupyterHub, or to your local Jupyter server.
 We will first install a jupyter kernel for Julia. 
 
-1. Navigate to https://naf-jhub.desy.de/user and log in with your credentials. Use the "Default" domain and select the "Jupyter Lab with user extensions".
+1. Navigate to https://naf-jhub.desy.de/user and log in with your credentials. Use the "Default" domain and select the "Classical Notebook".
 1. Start the terminal (Under "Other")
 1. Downlowd the latest stable Julia binary for x84_64 Linux (at the time of this writing v1.4.2) 
     ```
