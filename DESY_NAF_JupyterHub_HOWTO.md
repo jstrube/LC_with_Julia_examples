@@ -8,14 +8,14 @@ We will first install a jupyter kernel for Julia.
 
 1. Navigate to https://naf-jhub.desy.de/user and log in with your credentials. Use the "Default" domain and select the "Classical Notebook".
 1. Start the terminal (Under "Other")
-1. Downlowd the latest stable Julia binary for x84_64 Linux (at the time of this writing v1.4.2) 
+1. Downlowd the latest stable Julia binary for x84_64 Linux from here: https://julialang.org/downloads/
     ```
-    wget https://julialang-s3.julialang.org/bin/linux/x64/1.4/julia-1.4.2-linux-x86_64.tar.gz
-    tar xzf julia-1.4.2-linux-x86_64.tar.gz
+    wget https://julialang-s3.julialang.org/bin/linux/x64/1.5/julia-1.5.0-linux-x86_64.tar.gz
+    tar xzf julia-1.5.0-linux-x86_64.tar.gz
     ```
 1. Open the julia binary and install the IJulia package
     ```
-    julia-1.4.2/bin/julia
+    julia-1.5.0/bin/julia
     ]
     add IJulia
     build IJulia
