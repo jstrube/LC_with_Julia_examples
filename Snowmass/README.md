@@ -9,6 +9,11 @@ They demonstrate how to open LCIO files, inspect them, and run a simple analysis
 - The examples are designed to be executed in a Jupyter notebook. This can be run either on the local machine, or on a designated Jupyterhub server.
     - For installation on the DESY Jupyterhub, please follow the instructions here: https://github.com/jstrube/LC_with_Julia_examples/blob/main/DESY_NAF_JupyterHub_HOWTO.md
     - For installation on conventional resources, you need to install the Julia programming language, which can be obtained from https://julialang.org/downloads/.
+    - On OSG, Julia has been installed in a central location. All you need is
+      ```
+      module use /collab/project/snowmass21/software/modulefiles
+      module load julia-1.5.1
+      ```
 
 All other software can be installed through the Julia package manager.
 
@@ -29,5 +34,10 @@ If you want to run the examples as scripts, you need to convert them to julia sc
      notebook()
      ```
       This should open a new browser tab with a Jupyter notebook server.
+1. On OSG, if you've logged in with port forwarding, you can now start a jupyter server
+   ```
+   source /cvmfs/belle.cern.ch/tools/b2setup release-04-02-08
+   jupyter notebook --no-browser --port=<your forwarded port>
+   ```
 
 You are now ready to start the examples.
