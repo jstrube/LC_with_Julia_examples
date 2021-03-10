@@ -18,7 +18,6 @@ They demonstrate how to open LCIO files, inspect them, and run a simple analysis
 All other software can be installed through the Julia package manager.
 
 ## Getting Started
-If you want to run the examples as scripts, you need to convert them to julia scripts, either by executing `jupyter nbconvert --to=script <name of notebook>`, or by copying and pasting the lines into a new file or into the julia command line (called REPL).
 
 1. After installation, start the julia executable. You will see a prompt.
 1. Type `]` to enter the package manager mode.
@@ -41,3 +40,4 @@ If you want to run the examples as scripts, you need to convert them to julia sc
    ```
 
 You are now ready to start the examples.
+If you want to run the examples as scripts (not as notebooks), you need to convert them to julia scripts, either by executing `jupyter nbconvert --to=script <name of notebook>`, or by copying and pasting the lines into a new file or into the julia command line (called REPL).
