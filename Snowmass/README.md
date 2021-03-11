@@ -33,7 +33,7 @@ All other software can be installed through the Julia package manager.
      notebook()
      ```
       This should open a new browser tab with a Jupyter notebook browser.
-1. Download the `.ipynb` notebook files from this directory and execute them.
+1. Download the `.ipynb` notebook files from this directory and execute them. If you encounter an error message due to missing packages, follow the steps suggested in the error message.
 
 On OSG, if you've logged in with port forwarding, you can now start a jupyter server
    ```
