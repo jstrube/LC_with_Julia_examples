@@ -7,7 +7,7 @@ They demonstrate how to open LCIO files, inspect them, and run a simple analysis
 
 - LCIO only works on Linux and Mac OS X.
 - The examples are designed to be executed in a Jupyter notebook. This can be run either on the local machine, or on a designated Jupyterhub server.
-    - For installation on conventional resources (laptop/desktop/...), you need to install the Julia programming language, which can be obtained from https://julialang.org/downloads/.
+    - For installation on conventional resources (laptop/desktop/...), you need to install the Julia programming language, which can be obtained from https://julialang.org/downloads/. Use the "Current stable release".
     - For installation on the DESY Jupyterhub, please follow the instructions here: https://github.com/jstrube/LC_with_Julia_examples/blob/main/DESY_NAF_JupyterHub_HOWTO.md
     - On OSG, Julia has been installed in a central location. All you need is
       ```
